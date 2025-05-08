@@ -1,0 +1,107 @@
+/* General Page Styling */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f7f9fc;
+  color: #333;
+}
+
+/* Login container split design */
+.login-container {
+  display: flex;
+  min-height: 100vh;
+}
+
+/* Left panel with image */
+.login-left {
+  flex: 1;
+  background: #007bff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+
+.login-left img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* Right panel with form */
+.login-right {
+  flex: 1;
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+}
+
+.login-form-wrapper {
+  max-width: 400px;
+  width: 100%;
+}
+
+/* ✨ HospitalSys Branding */
+.hospital-brand {
+  font-size: 32px;
+  font-weight: 800;
+  color: #007bff;
+  text-align: center;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+}
+
+/* Login form headings and text */
+.login-form-wrapper h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 20px;
+  color: #444;
+}
+
+/* Input fields */
+.login-form-wrapper input[type="text"],
+.login-form-wrapper input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+/* Show password and Remember me checkboxes */
+.login-form-wrapper label {
+  margin-right: 10px;
+  font-size: 14px;
+}
+
+/* Submit button */
+.login-form-wrapper button {
+  width: 100%;
+  padding: 10px;
+  background-color: #3366ff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.login-form-wrapper button:hover {
+  background-color: #0056b3;
+}
+
+/* Help text */
+.login-form-wrapper small {
+  display: block;
+  margin-top: 20px;
+  font-size: 13px;
+  text-align: center;
+  color: #555;
+}
+
+.login-form-wrapper small span {
+  font-weight: bold;
+}
